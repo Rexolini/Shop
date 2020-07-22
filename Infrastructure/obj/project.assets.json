@@ -6618,11 +6618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\kamilc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kamilc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6638,8 +6638,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Core\\Core.csproj"
+            "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Core\\Core.csproj"
             }
           }
         }

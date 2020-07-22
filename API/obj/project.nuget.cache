@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "uN50yhKgW604iTyT0rxfAwUmoopGzbbq40Lh74Px9WNSkuBpxM+fS+xnqrTOoidIOerG0SMsezMrJjLV9q8XZg==",
+  "dgSpecHash": "P0RTmRJ9kGj0MCRvWe9jbLp/GsWzOhciX0I20QPmKPgGlAdpO+ePXnBqDgv/O7TlS4gkGa+MQf0AJ+fllPqlnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kamilc\\.nuget\\packages\\carbon.data.protection\\1.2.0\\carbon.data.protection.1.2.0.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\carbon.packaging\\1.40.0\\carbon.packaging.1.40.0.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\carbon.storage\\2.1.0\\carbon.storage.2.1.0.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\carbon.versioncontrol\\2.1.0\\carbon.versioncontrol.2.1.0.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\carbon.versioning\\1.8.1\\carbon.versioning.1.8.1.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\github\\1.24.0\\github.1.24.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

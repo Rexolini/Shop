@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OPmCYgX7GLoeB6vFags8Qa+BZ65lPSHNTE4qgkNWKCi9HrtBQF8j2C0dxdeGSQ+CWA7UTV50KpSld0y/5cV5yg==",
+  "dgSpecHash": "Cjy7MsOHV3sY6gVIsQr3ylh8lM0i0eWhG3p/1ELHHLEGVIRhzsSXHNdJqYhf8/8hf+epUbnId7fVgMrWpjPV6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

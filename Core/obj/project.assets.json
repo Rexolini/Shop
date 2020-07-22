@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\kamilc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Core\\obj\\",
+      "outputPath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kamilc\\AppData\\Roaming\\NuGet\\NuGet.Config",
