@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FcRCujioUpG3o2drJb3ZYKwixn7EUU7cBdh3x3CTTruoxA/Z+sgfgu7mRDIM9UpHuPpQ5Vd38XYL+IEcf/7irA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\kamilc\Desktop\ParaMilitaryShop\Core\obj\Debug\netstandard2.0\Core.pdb
