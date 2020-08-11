@@ -1,0 +1,12 @@
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\bin\Debug\netstandard2.1\Core.dll
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+C:\Users\kamilc\Desktop\ParaMilitaryShop\ParaMilitaryShop\Shop\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb
