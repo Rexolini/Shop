@@ -1,15 +1,14 @@
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
-import {IDeliveryMethod} from '../shared/models/deliveryMethod';
+import { IDeliveryMethod } from '../shared/models/deliveryMethod';
 import { IOrderToCreate } from '../shared/models/order';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CheckoutService {
-  baseUrl = environment.apiUrl;
+  baseUrl = 'https://localhost:5001/api/';
 
   constructor(private http: HttpClient) { }
 

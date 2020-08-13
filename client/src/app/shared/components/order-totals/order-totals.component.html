@@ -1,4 +1,4 @@
-<div class="bg-dark px-4 py-3 text-white font-weight-bold">
+<div class="bg-dark px-4 py-3 text-white font-weight-bold mx-auto">
     Order Summary
 </div>
 <div class="p-4">
@@ -6,7 +6,7 @@
     <ul class="list-unstyled mb-4" *ngIf="(basketTotal$ | async) as totals">
         <li class="d-flex justify-content-between py-3 border-bottom">
             <strong class="text-muted">Order Subtotal</strong>
-            <strong>{{totals.shipping | currency}}</strong>
+            <strong>{{totals.subtotal | currency}}</strong>
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
             <strong class="text-muted">Shipping and handling</strong>
@@ -14,7 +14,7 @@
         </li>
         <li class="d-flex justify-content-between py-3 border-bottom">
             <strong class="text-muted">Total</strong>
-            <strong>{{totals.shipping | currency}}</strong>
+            <strong>{{totals.total | currency}}</strong>
         </li>
     </ul>
 </div>
