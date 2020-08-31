@@ -15,5 +15,11 @@ namespace API.Dto
         public string ProductType { get; set; }
 
         public string ProductBrand { get; set; }
+        
+        public string ProductKey { get; set; }
+        public int Stock { get; set; }
+        public string Colour { get; set; }
+        public string Material { get; set; }
+        public string Dimensions { get; set; }
     }
 }

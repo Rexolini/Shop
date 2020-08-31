@@ -8,6 +8,8 @@ const routes: Routes = [
   { path: '', component: HomeComponent, data: { breadcrumb: 'Home' } },
   { path: 'test-error', component: TestErrorComponent, data: { breadcrumb: 'Test Errors' } },
   { path: 'shop', loadChildren: () => import('./shop/shop.module').then(mod => mod.ShopModule), data: { breadcrumb: 'Shop' } },
+  { path: 'compare', loadChildren: () => import('./compare/compare.module').then(mod => mod.CompareModule), data: { breadcrumb: 'Compare'}},
+  { path: 'favourite', loadChildren: () => import('./favourite/favourite.module').then(mod => mod.FavouriteModule), data: { breadcrumb: 'Favourite' } },
   { path: 'basket', loadChildren: () => import('./basket/basket.module').then(mod => mod.BasketModule), data: { breadcrumb: 'Basket' } },
   {
     path: 'checkout',

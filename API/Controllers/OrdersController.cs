@@ -30,7 +30,7 @@ namespace API.Controllers
             var email = HttpContext.User?.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
 
             var address = _mapper.Map<AddressDto,Address>(orderDto.ShipToAddress);
-            var order = await _orderService.CreateOrderdAsync(email, orderDto.DeliveryMethod, orderDto.BasketId, address);
+            var order = await _orderService.CreateOrderAsync(email, orderDto.DeliveryMethod, orderDto.BasketId, address);
             if(order == null) return BadRequest(new ApiResponse(400, "ProblemCreating order"));
             return Ok(order);
         }
@@ -39,7 +39,7 @@ namespace API.Controllers
         public async Task<ActionResult<IReadOnlyList<OrderDto>>> GetOrdersForUser()
         {
             var email = HttpContext.User.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
-            var orders = await _orderService.GetOrderForUserAsync(email);
+            var orders = await _orderService.GetOrdersForUserAsync(email);
             return Ok(_mapper.Map<IReadOnlyList<Order>, IReadOnlyList<OrderToReturnDto>>(orders));
         }
 
@@ -55,7 +55,7 @@ namespace API.Controllers
         [HttpGet("deliveryMethods")]
         public async Task<ActionResult<IReadOnlyList<DeliveryMethod>>> GetDeliveryMethods()
         {
-            return Ok(await _orderService.GetDeliveryMethodAsync());
+            return Ok(await _orderService.GetDeliveryMethodsAsync());
         }
     }
 }

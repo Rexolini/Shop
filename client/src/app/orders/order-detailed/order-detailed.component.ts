@@ -16,6 +16,7 @@ export class OrderDetailedComponent implements OnInit {
     this.breadcrumbService.set('@OrderDetailed', '');
   }
 
+  // tslint:disable-next-line: typedef
   ngOnInit() {
     this.ordersService.getOrderDetailed(+this.route.snapshot.paramMap.get('id'))
       .subscribe((order: IOrder) => {

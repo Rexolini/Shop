@@ -1,26 +1,26 @@
 [
   {
     "Id": 1,
-    "Name": "Angular"
+    "Name": "Cyma"
   },
   {
     "Id": 2,
-    "Name": "NetCore"
+    "Name": "AGM"
   },
   {
     "Id": 3,
-    "Name": "VS Code"
+    "Name": "SpecnaArms"
   },
   {
     "Id": 4,
-    "Name": "React"
+    "Name": "ArmoredClaw"
   },
   {
     "Id": 5,
-    "Name": "Typescript"
+    "Name": "MFH"
   },
   {
     "Id": 6,
-    "Name": "Redis"
+    "Name": "Protektor"
   }
 ]

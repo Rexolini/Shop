@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6zRrLS5i7TitrE1yh1wL2U/6zNnMKXY2ylmLm39E+KvhOD6iqGcK3kb71EYKa4mGYzBw619a3PrPzmsrYgJE/Q==",
+  "dgSpecHash": "RpgZIS/jEUUcHG4P6anPGGib9kiwQIw8CU9nWkBk+M1yuky6ntzP5QPjR5Pq7AHKz3MK6AFd4Xn8d2BCBhiPHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kamilc\\Desktop\\ParaMilitaryShop\\ParaMilitaryShop\\Shop\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,7 @@
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\pipelines.sockets.unofficial\\2.1.16\\pipelines.sockets.unofficial.2.1.16.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -89,6 +90,7 @@
     "C:\\Users\\kamilc\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.2\\sqlitepclraw.provider.e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\stackexchange.redis\\2.1.58\\stackexchange.redis.2.1.58.nupkg.sha512",
+    "C:\\Users\\kamilc\\.nuget\\packages\\stripe.net\\37.30.0\\stripe.net.37.30.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\kamilc\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

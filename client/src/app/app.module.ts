@@ -9,10 +9,12 @@ import { CoreModule } from './core/core.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { HomeModule } from './home/home.module';
 import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

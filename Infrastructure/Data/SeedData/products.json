@@ -1,146 +1,106 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "content/images/products/sb-ang1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Name": "CM060A SMG replica",
+    "PictureUrl":"images/products/eng_pm_CM060A-SMG-replica-1152208347_1",
     "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
+    "Description": "A replica of a submachine gun from Belgian technical thought, which thanks to an unusual cartridge has secured its place among the most problematic to classify designs. The body and the magazine are made of plastic, similar to the real firearm, while the reloading handle assembly and the RIS rail barrels are made of metal.",
     "ProductTypeId": 1,
-    "ProductBrandId": 1
+    "ProductBrandId": 1,
+    "ProductKey": "1",
+    "Stock": 2,
+    "Colour": "Black",
+    "Material": "metal and plastic",
+    "Dimensions": "480mm x 80mm"
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Name": "AGM MP40 - MP007",
+    "PictureUrl":"content/images/products/eng_pm_AGM-MP40-MP007-black-1152189520_1",
     "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
+    "Description": "AGM replica MP007 is made of metal and abs like a real one . Upper reciver, barrel, sights, magazine cach and chamber cover are made of metal while lower reciver and pistol grip cover's are made of ABS. Folding stock and initial velocity of 360 fps make's it a perfect SMG for middle and close range fire. This is one of the best made MP007 AEG replicas avaible.    ",
     "ProductTypeId": 1,
-    "ProductBrandId": 5
+    "ProductBrandId": 2,
+    "ProductKey": "2",
+    "Stock": 2,
+    "Colour": "Black",
+    "Material": "metal and plastic",
+    "Dimensions": "629mm x 70mm"
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
+    "Name": "Mid-Cap magazine for the M4/M16 replicas",
+    "PictureUrl":"images/products/eng_pm_Mid-Cap-magazine-for-the-M4-M16-replicas-1152198311_1",
+    "Price": 7,
+    "Description": "A magazine for M4/M16.",
+    "ProductTypeId": 3,
+    "ProductBrandId": 1,
+    "ProductKey": "3",
+    "Stock": 2,
+    "Colour": "Black",
+    "Material": "metal and plastic",
+    "Dimensions": "126mm x 29mm"
+  },
+  {
+    "Name": "Magazine Low-Cap for electric reply of MP40",
+    "PictureUrl":"images/products/eng_pm_Magazine-Low-Cap-for-electric-reply-of-MP40-1152189647_1",
+    "Price": 12,
+    "Description": "A magazine replic for mp 40",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2,
+    "ProductKey": "4",
+    "Stock": 2,
+    "Colour": "Black",
+    "Material": "metal and plastic",
+    "Dimensions": "29mm x 122mm"
+  },
+  {
+    "Name": "Armored Claw CovertPro Tactical Gloves - Grey",
+    "PictureUrl":"images/products/eng_pm_Armored-Claw-Hot-Weather-Quick-Release-TM-Tactical-Gloves-Grey-1152224792_1",
+    "Price": 6,
+    "Description": "Armored Claw gloves were made only of highest-quality, tested for many years materials that guarantee their reliability and durability. These include, among others, original Kevlar® and Nomex® fibers by Dupont® as well as Keprotec® protective material developed by Schoeller Switzerland®. The implementation of, among others, Spandex, neoprene, natural and artificial leather provides comfort, breathability, and good fit to the user’s hand.",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4,
+    "ProductKey": "5",
+    "Stock": 2,
+    "Colour": "Grey",
+    "Material": "Spandex + synthetic leather",
+    "Dimensions": "S"
+  },
+  {
+    "Name": "Pheos One Safety Glasses - Specna Arms Edition",
+    "PictureUrl":"images/products/eng_pm_Pheos-One-Safety-Glasses-Specna-Arms-Edition-1152215934_1",
+    "Price": 5,
+    "Description": "Modern, trendy look of uvex pheos protective glasses makes them ideal for every day use as well as in an industrial workplace. Aside from attractive appearance these protective glasses contain also innovative technology: the main component are bifocal lenses, which not only provide a wide field of view, but are also incredibly resistant to scratches on the outside and lastingly protect from misting over on the inside due to unique uvex supravision technology.",
+    "ProductTypeId": 4,
+    "ProductBrandId": 3,
+    "ProductKey": "6",
+    "Stock": 2,
+    "Colour": "Black",
+    "Material": "plastic",
+    "Dimensions": "one size"
+  },
+  {
+    "Name": "T-shirt MFH Russian Digital Camo",
+    "PictureUrl":"images/products/koszulka-t-shirt-mfh-digital-camo-00104W",
+    "Price": 11,
+    "Description": "Durable and pleasant to the touch T-shirt, made of 100% high-quality combed cotton. Appropriately selected basis weight (170g / m2) guarantees airiness and durability of the material. The soft welt around the neck protects against abrasions and excessive stretching of the material. Loose cut does not restrict freedom of movement. Thanks to the use of reactive dyes, the color is very durable and does not wash off.",
     "ProductTypeId": 2,
-    "ProductBrandId": 2
+    "ProductBrandId": 5,
+    "ProductKey": "7",
+    "Stock": 2,
+    "Colour": "Camo",
+    "Material": "100% cotton",
+    "Dimensions": "M"
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
+    "Name": "Shoes Protektor Grom ",
+    "PictureUrl":"images/products/Buty-Protector-Grom-108-742",
+    "Price": 50,
+    "Description": "Basic, light city shoes for military and police purposes. The shoes reproduce the known patterns of tactical footwear",
     "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
-  },
-  {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "ProductBrandId": 6,
+    "ProductKey": "8",
+    "Stock": 2,
+    "Colour": "Black",
+    "Material": "lether",
+    "Dimensions": "42"
   }
 ]

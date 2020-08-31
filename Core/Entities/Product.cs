@@ -16,6 +16,11 @@ namespace Core.Entities
         public ProductBrand ProductBrand { get; set; }
 
         public int ProductBrandId { get; set; }
-
+        public string ProductKey { get; set; }
+        public int Stock { get; set; }
+        public string Colour { get; set; }
+        public string Material { get; set; }
+        public string Dimensions { get; set; }
+        
     }
 }

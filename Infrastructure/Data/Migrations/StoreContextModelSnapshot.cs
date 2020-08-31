@@ -51,8 +51,8 @@ namespace Infrastructure.Data.Migrations
                     b.Property<int?>("DeliveryMethodId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTimeOffset>("OrderDate")
-                        .HasColumnType("TEXT");
+                    b.Property<long>("OrderDate")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("PaymentIntentId")
                         .HasColumnType("TEXT");
@@ -99,10 +99,19 @@ namespace Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Colour")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasMaxLength(180);
+
+                    b.Property<string>("Dimensions")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Material")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -119,7 +128,13 @@ namespace Infrastructure.Data.Migrations
                     b.Property<int>("ProductBrandId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("ProductKey")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("ProductTypeId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Stock")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
@@ -151,55 +166,7 @@ namespace Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("BearingDiameter")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("CapacityOfMagazine")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Colour")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Dimensions")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("GearboxVersion")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Length")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("LengthInnerBarrel")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("MadeOf")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Material")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("MuzzleVelocity")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Name")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ProductKey")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ProductName")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Size")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("TypeOfMagazine")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("VersionsForColour")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Weight")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
