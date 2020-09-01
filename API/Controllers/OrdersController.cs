@@ -3,7 +3,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using API.Dto;
-using API.Errors;
+using API.Extensions;
 using AutoMapper;
 using Core.Entities.OrderAggregate;
 using Core.Interfaces;
@@ -17,7 +17,6 @@ namespace API.Controllers
     {
         private readonly IOrderService _orderService;
         private readonly IMapper _mapper;
-
         public OrdersController(IOrderService orderService, IMapper mapper)
         {
             _mapper = mapper;
@@ -29,26 +28,30 @@ namespace API.Controllers
         {
             var email = HttpContext.User?.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
 
-            var address = _mapper.Map<AddressDto,Address>(orderDto.ShipToAddress);
+            var address = _mapper.Map<AddressDto, Address>(orderDto.ShipToAddress);
+
             var order = await _orderService.CreateOrderAsync(email, orderDto.DeliveryMethod, orderDto.BasketId, address);
-            if(order == null) return BadRequest(new ApiResponse(400, "ProblemCreating order"));
+
             return Ok(order);
         }
 
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<OrderDto>>> GetOrdersForUser()
         {
-            var email = HttpContext.User.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
+            var email = HttpContext.User?.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
+
             var orders = await _orderService.GetOrdersForUserAsync(email);
+
             return Ok(_mapper.Map<IReadOnlyList<Order>, IReadOnlyList<OrderToReturnDto>>(orders));
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<OrderToReturnDto>> GetOrderByIdForUser(int id)
         {
-            var email = HttpContext.User.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
+            var email = HttpContext.User?.Claims?.FirstOrDefault(x => x.Type == ClaimTypes.Email)?.Value;
+
             var order = await _orderService.GetOrderByIdAsync(id, email);
-            if(order == null) return NotFound(new ApiResponse(404));
+
             return _mapper.Map<Order, OrderToReturnDto>(order);
         }
 

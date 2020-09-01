@@ -22,6 +22,8 @@ using Microsoft.OpenApi.Models;
 using API.Extensions;
 using StackExchange.Redis;
 using Infrastructure.Identity;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace API
 {
@@ -78,7 +80,13 @@ namespace API
 
             app.UseRouting();
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(env.ContentRootPath, "Content")
+                ), RequestPath = "/Content"
+            });
 
             app.UseCors("CorsPolicy");
 

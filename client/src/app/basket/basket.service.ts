@@ -90,6 +90,7 @@ export class BasketService {
     return basket;
   }
 
+  // tslint:disable-next-line: typedef
   private calculateTotals(){
     const basket = this.getCurrentBasketValue();
     const shipping = this.shipping;
