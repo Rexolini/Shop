@@ -4,6 +4,7 @@ import { ICompare, ICompareItem, Compare } from '../shared/models/compare';
 import { CompareService } from '../compare/compare.service';
 import { BasketService } from '../basket/basket.service';
 import { IProduct } from '../shared/models/product';
+import { OrderItem } from '../shared/models/order';
 
 @Component({
   selector: 'app-compare',
@@ -12,6 +13,8 @@ import { IProduct } from '../shared/models/product';
 })
 export class CompareComponent implements OnInit {
   compare$: Observable<ICompare>;
+  
+  @Input() items: ICompareItem[] | OrderItem[] = [];
 
   constructor(private  compareService: CompareService, private basketService: BasketService) { }
   @Input() product: IProduct;
@@ -20,9 +23,9 @@ export class CompareComponent implements OnInit {
     this.compare$ = this.compareService.compare$;
   }
 
-  // removeBasketItem(item: IBasketItem){
-  //   this.compareService.(item);
-  // }
+   removeCompareItem(item: ICompareItem){
+    //  this.compareService.removeItemFromCompare(item);
+   }
 
  addItemQuantity(item: ICompareItem){
     this.compareService.addItemToCompare(item);

@@ -5,6 +5,7 @@ import { FavouriteService } from '../favourite/favourite.service';
 import { BasketService } from '../basket/basket.service';
 import { IProduct } from '../shared/models/product';
 import { IFavouriteItem, IFavourite } from '../shared/models/favourite';
+import { OrderItem } from '../shared/models/order';
 
 @Component({
   selector: 'app-favourite',
@@ -16,6 +17,7 @@ export class FavouriteComponent implements OnInit {
 
   constructor(private  favouriteService: FavouriteService, private basketService: BasketService) { }
   @Input() product: IProduct;
+  @Input() items: IFavouriteItem[] | OrderItem[] = [];
   
   ngOnInit(): void {
     this.favourite$ = this.favouriteService.favourite$;

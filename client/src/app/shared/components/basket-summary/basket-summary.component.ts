@@ -30,7 +30,7 @@ export class BasketSummaryComponent implements OnInit {
     this.increment.emit(item);
   }
 
-  removeBasketItem(item: IBasketItem) {
+  removeFavouriteItem(item: IBasketItem) {
     this.remove.emit(item);
   }
 
